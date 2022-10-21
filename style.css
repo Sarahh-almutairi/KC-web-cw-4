@@ -6,7 +6,7 @@ border: 1px ;
 border-radius: 10px;
 opacity: 0.5;
 }
-.circle{
+div{
 
 
 width: 150px;
@@ -17,33 +17,34 @@ opacity: 0.5;
 transition: all 0.5;
 box-shadow: 1px 3px 6px black;
 }
-.circle:horver{
 
 
-opacity: 1;
-
-}
-
-#red{
+.red{
 
 background-color: red;
 
 }
-#yellow{
+.yellow{
 
 background-color: yellow;
 
 
 
 }
-#green{
+.green{
 
 background-color: green;
 
 }
 
-
-
-
-
-
+.red ,
+.yellow ,
+.green {
+    opacity: 0.2;
+    transition: 1s;
+}
+.red:hover ,
+.yellow:hover ,
+.green:hover{
+    opacity: 1;
+}
